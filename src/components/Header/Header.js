@@ -16,17 +16,6 @@ const Header = () => {
 
 
 
-
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  }));
-
-
-
     return (
 
     <div className="bg">
@@ -57,12 +46,7 @@ const Header = () => {
         </Nav.Link>
       </Nav>
       <Form className="d-flex">
-        {/* <FormControl
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-        /> */}
+
         <BsSearch/>
       </Form>
     </Navbar.Collapse>
@@ -71,24 +55,22 @@ const Header = () => {
   </div> 
 
 
-
-
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2} columns={16}>
-        <Grid item xs={8} className="left-main">
+   <Box sx={{ flexGrow: 1 }} className="pt-5">
+      <Grid container spacing={2} columns={12}>
+        <Grid item xs={12} md={6} className="left-main">
            <div className="left-content">
              <h2 className="hero-text">Start Your carer & push your passion!</h2>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo quibusdam veritatis ratione deleniti.</p>
              <Button className="btn" style={{backgroundColor: "#FF7B4B"}}>View Our Program <FiNavigation/> </Button>
            </div>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={12} md={6}>
           <div className="right-content">
-            <img fluid src="https://i.ibb.co/GxfR85K/bbbb-removebg.png" alt="" srcset="" />
+            <img className="img-fluid" src="https://i.ibb.co/GxfR85K/bbbb-removebg.png" alt="" srcset="" />
           </div>
         </Grid>
       </Grid>
-    </Box>
+   </Box>
 
 
 

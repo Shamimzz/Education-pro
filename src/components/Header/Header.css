@@ -4,9 +4,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-
+  position: relative;
 }
 
 .left-main{
@@ -23,11 +23,48 @@
   align-items: center;
   text-align: start;
   position: absolute;
-  top: 200px;
   left: 10%;
-   
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .right-content{
+
+}
+
+@media only screen and (max-width: 900px){
+  .hero-text{
+    font-size: 55px;
+    font-weight: 700;
+    left: 5%;
+  }
+
+  .left-content{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    padding: 100px;
+  }
+
+}
+
+
+@media only screen and (max-width: 625px){
+
+  .hero-text{
+    font-size: 40px;
+    font-weight: 700;
+    left: 5%;
+  }
+
+  .left-content{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    padding: 70px;
+  }
 
 }
