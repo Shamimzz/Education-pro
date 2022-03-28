@@ -4,6 +4,7 @@ import AdmissionAid from '../AdmissionAid/AdmissionAid';
 import Graduate from '../Graduate/Graduate';
 import Header from '../Header/Header';
 import HowToApply from '../HowToApply/HowToApply';
+import NewsEvents from '../NewsEvents/NewsEvents';
 import TuitionFees from '../TuitionFees/TuitionFees';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <AdmissionAid/>
             <HowToApply/>
             <TuitionFees/>
+            <NewsEvents/>
         </div>
     );
 };

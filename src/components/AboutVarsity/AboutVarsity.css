@@ -12,6 +12,8 @@
 
 .university-content{
    text-align: start;
+   /* display: flex; */
+   justify-content: space-around;
 }
 
 

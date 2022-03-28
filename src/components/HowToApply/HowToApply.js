@@ -11,15 +11,15 @@ import { Button, Col, Row } from 'react-bootstrap';
 
 const HowToApply = () => {
     return (
-    <div className="container">
+    <div className="container pt-5 pb-5">
 
 
 
-     <Box sx={{ flexGrow: 1 }} className="">
+     <Box sx={{ flexGrow: 1 }} className="pt-3 pb-3">
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={6} md={12} className="d-flex justify-content-between">
-            <h2 className="about-hero-text">About the University! </h2>
-             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation/></Button>
+            <h2 className="about-hero-text">How To Apply</h2>
+            <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation/></Button>
         </Grid>
       </Grid>
      </Box>
