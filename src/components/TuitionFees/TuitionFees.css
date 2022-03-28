@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.Tuition-container{
+  background-color: #F6F7FB;
+  height: 100vh;
+}
+
+
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    text-align: start;
+  }
+  
+.first-col{
+  background-color: #ff7b4b;
+  color: white;
+  border-radius: 15px;
+}
+
+/* .second-col{
+  background-color: #ffffff;
+  color: black;
+  border-radius: 15px;
+} */
+
+
+.align li{
+  text-align: start;
+  align-items: start;
+  
+  /* justify-self: start; */
+  /* padding: 20px 20px 20px 0px !important; */
+}
+
+  /* Style the list */
+  .price {
+    /* border: 1px solid #eee; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    /* box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2) */
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+  
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .total-li{
+    border-top: 1px solid #eee;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+
+.price-header{
+    text-align: start;
+}
+
+
+
+
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 1200px) {
+    .columns {
+      width: 33%;
+    }
+
+    .second-col,
+    .third-col{
+      background-color: #ffffff;
+      color: black;
+      border-radius: 15px;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 900px) {
+    .columns {
+      width: 50%;
+
+    }
+
+   .second-col{
+      background-color: #d49f2c3a;
+      color: black;
+      border-radius: 15px;
+    } 
+    
+    .third-col{
+      background-color: #60ddd75b;
+      color: black;
+      border-radius: 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+
+    }
+
+    .third-col{
+      background-color: #60ddd73d;
+      color: black;
+      border-radius: 15px;
+    }
+  
+
+  }

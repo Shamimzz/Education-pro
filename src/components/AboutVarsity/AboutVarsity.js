@@ -10,14 +10,14 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 import { Button } from 'react-bootstrap';
 import { Grid } from '@mui/material';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+
+
 
 const AboutVarsity = () => {
 
    return (
    <div className="container pt-5 pb-5">
 
-   <div className="row">
    <Box sx={{ flexGrow: 1 }} className="">
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={12} md={5}>
@@ -34,28 +34,25 @@ const AboutVarsity = () => {
         </Grid>
       </Grid>
     </Box>
-    </div>
 
-
-    <div className="">
-    <Box sx={{ flexGrow: 1 }} className="">
-     <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 3, sm: 6, md: 12 }} className="mt-5">
-      <Grid item xs={6} md={4}>
-        <div className="about-box"> 
-        <div className="d-flex">
-          <span className="icon"><GiEarthAmerica/></span>
-          <span className="p-2"><h4>History</h4></span>
-        </div>
-        <div>
+      <Box sx={{ flexGrow: 1 }} className="">
+       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 3, sm: 6, md: 12 }} className="mt-5">
+        <Grid item xs={6} md={4}>
+         <div className="about-box box-1"> 
+           <div className="d-flex">
+            <span className="icon icon-1"><GiEarthAmerica/></span>
+            <span className="p-2"><h4>History</h4></span>
+         </div>
+         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
         </div>
           <span className="d-flex align-items-start"><AiOutlineArrowRight/></span>
         </div> 
       </Grid>
       <Grid item xs={6} md={4}>
-        <div className="about-box"> 
+        <div className="about-box box-2"> 
         <div className="d-flex">
-          <span className="icon"><GiMissilePod/></span>
+          <span className="icon icon-2"><GiMissilePod/></span>
           <span className="p-2"><h4>Mission</h4></span>
         </div>
         <div>
@@ -65,9 +62,9 @@ const AboutVarsity = () => {
         </div> 
       </Grid>
       <Grid item xs={6} md={4}>
-        <div className="about-box"> 
+        <div className="about-box box-3"> 
         <div className="d-flex">
-          <span className="icon"><BsCompass/></span>
+          <span className="icon icon-3"><BsCompass/></span>
           <span className="p-2"><h4>History</h4></span>
         </div>
         <div>
@@ -75,11 +72,9 @@ const AboutVarsity = () => {
         </div>
           <span className="d-flex align-items-start"><AiOutlineArrowRight/></span>
         </div> 
+       </Grid>
       </Grid>
-     </Grid>
-    </Box>
-    </div>
-
+     </Box>
 
       </div>
     );

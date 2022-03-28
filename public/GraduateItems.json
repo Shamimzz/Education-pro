@@ -1,26 +1,22 @@
 [
-   {
-     "name": "Sheawer Moc",
+   {  "id": 1,
      "title": "Owner of SIO",
-     "des": "“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
-     "img": "https://diviultimate.com/wp-content/uploads/2017/01/client-1.jpg"
+     "des": "“You made it so simple. My new site is so much faster and easier to work with than my old site.",
+     "img": "https://resources.finalsite.net/images/f_auto,q_auto/v1615436942/uwoca/gofsyjjmuooa62pw2quu/Graduate-Program-UCW.jpg"
    },
-   {
-     "name": "Ovivar khan",
+   {   "id": 2,
      "title": "CEO of Dream World",
-     "des": "“Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass. Thanks for being so awesome. High fives!”",
-     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC3zVOoBVBFtQhFxzJWlVMTbrjYOZuh2CjpUCrwu8lVkdo-iLXCAiQo4ookNe-HTLLJGg&usqp=CAU"
+     "des": "“Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass.”",
+     "img": "https://www.imerys.com/public/styles/metatag_image_1200x630/public/2019/04/11/T18_Careers_Students%26graduates_Imerysgraduateprogram_Image1.jpg.webp?itok=uYxVUTuE"
    } ,
-   {
-     "name": "James Bond",
+   {  "id": 3,
      "title": "Cheif Markting Officer",
      "des": "You guy rocked on the sculpture project! Thanks so much for doing a great job!",
-     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi4x_rTQ2eVNR7JDcYTPNIBM9IOv7ldpMMRLUuBFcexUBa60W6S3JaVrR6fxgia5gMV98&usqp=CAU"
+     "img": "https://www.mecca.com.au/on/demandware.static/-/Sites-MeccaAU-Library/default/dwbbf08bd9/images/careers/graduates/graduates-header-2020@1x.jpg"
    } ,
-   {
-     "name": "Richard man",
+   { "id": 4,
      "title": "General Menager Of AIOS",
-     "des": "“I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you. It's really great how easy your websites are to update and manage.“",
-     "img": "https://www.latrobe.edu.au/components/testimonials/it-and-engineering/kale-beesley-manager-infrastructure-services-bendigo-telco-industry-testimonial/Kale.Beesley_sq.jpg"
+     "des": "“I just wanted to share a quick note and let you know that you guys do a really good job.“",
+     "img": "https://www.smwc.edu/wp-content/uploads/smwc-adults-group-studying-e1541810211750.jpg"
    } 
 ]

@@ -12,11 +12,12 @@ import GraduateSlider from './Graduate-Slider/GraduateSlider';
 
 const Graduate = () => {
 
-    return (
-    <div className="container pt-5 pb-5">
+return (
+    <div className="Graduate-Container">
+  <div className="container pt-5 pb-5">
 
-   <div className="row">
-   <Box sx={{ flexGrow: 1 }} className="">
+  <div className="row">
+    <Box sx={{ flexGrow: 1 }} className="">
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={12} md={6}>
         <div className="Graduate-content p-4">
@@ -24,18 +25,19 @@ const Graduate = () => {
            <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo.</p>
            </div>
         </Grid>
-        <Grid item xs={12} md={6} className="left-main p-4">
-          <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All Program<FiNavigation/></Button>
+        <Grid item xs={12} md={6} className="left-main p-5">
+          <Button className="btn p-2" style={{backgroundColor:"#FF7B4B"}}>View All Program<FiNavigation/></Button>
         </Grid>
       </Grid>
-    </Box>
+     </Box>
     </div>
       
 
      <GraduateSlider/>
 
-        </div>
-    );
+     </div>
+    </div>
+  );
 };
 
 export default Graduate;
