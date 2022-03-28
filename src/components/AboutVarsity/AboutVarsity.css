@@ -1,19 +1,32 @@
 
 .about-content{
     color: black;
-    align-items: center;
-    text-align: start;
-    position: absolute;
-    left: 10%;
+    /* align-items: center; */
+    /* text-align: start; */
+    /* position: absolute; */
+    /* left: 10%; */
+    /* display: flex; */
+    /* align-items: start; */
 }
 
+
+.university-content{
+   text-align: start;
+}
+
+
+
+
 .left-img{
+    padding-left: 0px;
     width: 100%;
-    height: 100%;
+    /* height: 100vh; */
 }
 
 .about-img{
     border-radius: 20px;
+    width: 100%;
+    transform: translate(20px, 10px);
 }
 
 .about-hero-text{
@@ -22,29 +35,58 @@
     padding: 0px 0px 10px 0px;
 }
 
+
+.about-box{
+    background-color: #E9F3FF;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.d-flex{
+    padding: 10px;
+}
+
+.icon{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 900px){
 
+    .css-mhc70k-MuiGrid-root>.MuiGrid-item {
+        padding-left: 0px !important;
+    }
+    
     .about-content{
         color: black;
         align-items: center;
         text-align: start;
         position: absolute;
-        left: 10%;
+        left: 0;
     }
     
   }
 
 @media only screen and (max-width: 625px){
-
     .hero-text{
       font-size: 40px;
       font-weight: 700;
       left: 5%;
     }
-  .about-hero-text{
-
-  }
   
+    .about-content{
+        left: 8%;
+    }
+    
+
   }
 
 
