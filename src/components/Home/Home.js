@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutVarsity from '../AboutVarsity/AboutVarsity';
 import AdmissionAid from '../AdmissionAid/AdmissionAid';
+import FooterTop from '../Footer/FooterTop';
 import Graduate from '../Graduate/Graduate';
 import Header from '../Header/Header';
 import HowToApply from '../HowToApply/HowToApply';
@@ -17,6 +18,7 @@ const Home = () => {
             <HowToApply/>
             <TuitionFees/>
             <NewsEvents/>
+            <FooterTop/>
         </div>
     );
 };

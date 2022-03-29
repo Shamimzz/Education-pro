@@ -17,10 +17,12 @@
   }
   
 .first-col{
-  background-color: #ff7b4b;
+  background: linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%)!important;
   color: white;
   border-radius: 15px;
 }
+
+/* #ff7b4b; */
 
 /* .second-col{
   background-color: #ffffff;

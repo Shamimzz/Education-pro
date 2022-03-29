@@ -1,0 +1,40 @@
+.top-text{
+    margin: auto;
+    text-align: center;
+    padding: 8% 17% 8% 17%;
+    align-items: center;
+    text-align: center;
+    background: #1C2A44;
+    border-radius: 50px;
+    color: #fff;
+}
+
+
+li, a, .footer-h5{
+    text-decoration: none;
+    list-style: none; 
+    text-align: start;
+    padding: 5px;
+}
+
+li, a{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Grid-wraper{
+    padding: 10px;
+}
+
+.footer-img{
+    width: 60%;
+}
+.footer-img img{
+  width: 90%;
+  padding: 10px 10px 10px 0px;
+}
