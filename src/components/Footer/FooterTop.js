@@ -66,13 +66,13 @@ const FooterTop = () => {
         <hr />
 
           
-        <div className="footer-down d-flex justify-content-between">
-          <ul className="d-flex justify-content-around">
+        <div className="footer-down d-flex justify-content-between wrapper row">
+          <ul className="d-flex justify-content-around col-sm-6">
               <a href="#" className="p-2">Cookies</a>
               <a href="#" className="p-2">Treams & Conditions</a>
               <a href="#" className="p-2">Privacy Policy</a>
           </ul>   
-          <ul className="mt-2">
+          <ul className="mt-2 col-sm-6">
               <a href="#" className="p-2">Copyright @2022 It Company</a>
           </ul>        
         </div>

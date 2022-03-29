@@ -4,3 +4,10 @@
     color: black !important;
 }
 
+.card{
+    border-radius: 15px;
+}
+
+.graduate-img{
+    border-radius: 15px;
+}

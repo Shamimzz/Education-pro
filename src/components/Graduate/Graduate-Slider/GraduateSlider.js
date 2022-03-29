@@ -66,19 +66,17 @@ const GraduateSlider = () => {
 </Row> */}
 
 
-       <div className="row">
+      <div className="row">
         <Slider {...settings} >
              { items.map(pd => (
               <div className="col-lg-3 col-md-4 col-sm-12 p-2">
-                  <div className="">
-                    <div className="p-4 card">
-                      <div className="card-img">
-                        <img className="img-fluid" src={pd.img} alt="" />
-                      </div>
-                        <h5>{pd.title}</h5>
-                        <p>{pd.des}</p>
-                    </div>
+                <div className="p-4 card">
+                  <div className="card-img">
+                    <img className="img-fluid graduate-img" src={pd.img} alt="" />
                   </div>
+                    <h5>{pd.title}</h5>
+                  <p>{pd.des}</p>
+                </div>
               </div>
              ))}
        </Slider>

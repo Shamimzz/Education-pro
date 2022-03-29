@@ -11,3 +11,35 @@
     font-size: 25px;
     border-radius: 7px;
 }
+
+.Apply-btn{
+
+}
+
+
+.about-header{
+
+}
+
+@media only screen and (max-width: 413px){
+    .Apply-btn{
+        font-size: 12px;
+    }
+
+
+    .about-header{
+    
+    }
+    
+}
+@media only screen and (max-width: 374px){
+    .Apply-btn{
+        /* font-size: 8px; */
+    }
+
+
+    .about-header{
+    
+    }
+    
+}

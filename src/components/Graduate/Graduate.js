@@ -21,7 +21,7 @@ return (
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={12} md={6}>
         <div className="Graduate-content p-4">
-           <h2 className="about-hero-text">About the University! </h2>
+           <h2 className="about-hero-text">Graduate Program</h2>
            <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo.</p>
            </div>
         </Grid>

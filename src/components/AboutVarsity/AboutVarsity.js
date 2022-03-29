@@ -22,7 +22,7 @@ const AboutVarsity = () => {
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
         <Grid item xs={12} md={5}>
           <div className="left-img">
-            <img className="about-img" src="https://static.wixstatic.com/media/b08639_46a9190d634d4cffbe497359397b81ea~mv2.jpg/v1/fill/w_560,h_338,al_c,lg_1,q_80/b08639_46a9190d634d4cffbe497359397b81ea~mv2.webp" alt="" srcset="" />
+            <img className="about-img" src="https://i.ibb.co/vXBDv3t/Screeeee.png" alt="" srcset="" />
           </div>
         </Grid>
         <Grid item xs={12} md={7} className="left-main">
