@@ -48,10 +48,10 @@ const HowToApply = () => {
          <div className="about-box"> 
            <div className="d-flex">
             <span className="Apply-icon"><FaSuperpowers/></span>
-            <span className="p-2"><h4>You Apply</h4></span>
+            <span className="p-2 para"><h4>You Apply</h4></span>
          </div>
          <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
+          <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
         </div>
         </div> 
       </Grid>
@@ -59,10 +59,10 @@ const HowToApply = () => {
         <div className="about-box"> 
         <div className="d-flex">
           <span className="Apply-icon"><BiMessageDots/></span>
-          <span className="p-2"><h4>We Connect</h4></span>
+          <span className="p-2 para"><h4>We Connect</h4></span>
         </div>
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
+          <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
         </div>
         </div> 
       </Grid>
@@ -70,10 +70,10 @@ const HowToApply = () => {
         <div className="about-box"> 
         <div className="d-flex">
           <span className="Apply-icon"><BsCalendar3Week/></span>
-          <span className="p-2"><h4>You Get Ready</h4></span>
+          <span className="p-2 para"><h4>You Get Ready</h4></span>
         </div>
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
+          <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sequi optio rem neque assumenda magni.</p>
         </div>
         </div> 
        </Grid>

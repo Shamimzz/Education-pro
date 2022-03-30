@@ -7,7 +7,7 @@ const TuitionFees = () => {
     <div className="Tuition-container">
 
      <div className="container mt-4 pt-5 pb-5">
-            <h2 className="m-auto mb-5">Tuition & Fees</h2>
+            <h2 className="m-auto mb-5 tuition-header">Tuition & Fees</h2>
 
          <div className="columns">
           <div className="first-col p-5">

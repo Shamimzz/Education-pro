@@ -13,7 +13,7 @@ const AdmissionAid = () => {
              <Grid item xs={12} md={6}>
                <div className="content-aid">
                   <h2 className="about-hero-text">Admission & Aid </h2>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo quibusdam veritatis ratione deleniti. Lorem ipsum dolor sit.</p>
+                  <p className="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo quibusdam veritatis ratione deleniti. Lorem ipsum dolor sit.</p>
                   <Button className="btn p-2" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft: '8px'}}/></Button>
                </div>
              </Grid>

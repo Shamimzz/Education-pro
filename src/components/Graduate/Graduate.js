@@ -22,7 +22,7 @@ return (
         <Grid item xs={12} md={6}>
         <div className="Graduate-content p-4">
            <h2 className="about-hero-text">Graduate Program</h2>
-           <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo.</p>
+           <p className="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo.</p>
            </div>
         </Grid>
         <Grid item xs={12} md={6} className="left-main p-5">

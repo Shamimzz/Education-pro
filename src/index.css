@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Genos:wght@200&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Genos:wght@200&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,700&display=swap');
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* For Baeutiful Heading */
+  font-family: 'Cinzel', serif;
+  font-family: 'Genos', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Playfair Display', serif;
+
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  letter-spacing: .7px;
+}
+
+h3, h4, h5{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h4{
+
+}
+
+li, p{
+  font-family: 'Play', sans-serif;
+  letter-spacing: 0.5px;
 }
