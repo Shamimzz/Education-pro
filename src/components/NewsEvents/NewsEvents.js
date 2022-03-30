@@ -13,7 +13,7 @@ const NewsEvents = () => {
          <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
            <Grid item xs={6} md={12} className="d-flex justify-content-between">
              <h2 className="about-hero-text">News And Events</h2>
-             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All<FiNavigation/></Button>
+             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All<FiNavigation style={{marginLeft: '8px'}}/></Button>
            </Grid>
           </Grid>
          </Box>

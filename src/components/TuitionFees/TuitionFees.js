@@ -28,20 +28,20 @@ const TuitionFees = () => {
            <h5>Tuition Costs,</h5>
             <h5>2020-2022</h5>
          </div>
-          <ul className="price d-flex justify-content-around">
-            <div className="align">
-              <li>Fall 2020</li>
-              <li>Spring 2021</li>
-              <li>Summer 2021</li>
-              <li>Fall 2022</li>
-              <li className="mt-2 total-li">TOTAL</li>
-            </div>
+          <ul className="price d-flex justify-content">
+            <ul className="align">
+              <li className="fess-li">Fall 2020</li>
+              <li className="fess-li">Spring 2021</li>
+              <li className="fess-li">Summer 2021</li>
+              <li className="fess-li">Fall 2022</li>
+              <li className="mt-2 total-li fess-li">TOTAL</li>
+            </ul>
             <div>
-              <li>Price</li>
-              <li>10GB </li>
-              <li>10 </li>
-              <li>10 </li>
-              <li className="mt-2 total-li">$75.00</li>
+              <li className="fess-li">Price</li>
+              <li className="fess-li">10GB </li>
+              <li className="fess-li">10 </li>
+              <li className="fess-li">10 </li>
+              <li className="mt-2 total-li fess-li">$75.00</li>
               </div>
             </ul>
           </div>
@@ -51,23 +51,23 @@ const TuitionFees = () => {
         <div className="columns">  
           <div className="third-col p-4">
           <div className="price-header">
-           <h5>Tuition Costs,</h5>
+           <h5 >Tuition Costs,</h5>
             <h5>2020-2022</h5>
          </div>
-          <ul className="price d-flex justify-content-around">
-            <div className="align">
-              <li>Fall 2020</li>
-              <li>Spring 2021</li>
-              <li>Summer 2021</li>
-              <li>Fall 2022</li>
-              <li className="mt-2 total-li">TOTAL</li>
-            </div>
+           <ul className="price d-flex justify-content">
+            <ul className="align">
+              <li className="fess-li">Fall 2020</li>
+              <li className="fess-li">Spring 2021</li>
+              <li className="fess-li">Summer 2021</li>
+              <li className="fess-li">Fall 2022</li>
+              <li className="mt-2 total-li fess-li">TOTAL</li>
+            </ul>
             <div>
-              <li>Price</li>
-              <li>10GB </li>
-              <li>10 </li>
-              <li>10 </li>
-              <li className="mt-2 total-li">$75.00</li>
+              <li className="fess-li">Price</li>
+              <li className="fess-li">10GB </li>
+              <li className="fess-li">10 </li>
+              <li className="fess-li">10 </li>
+              <li className="mt-2 total-li fess-li">$75.00</li>
               </div>
             </ul>
           </div>

@@ -12,7 +12,7 @@ const FooterTop = () => {
            <Grid item xs={12}>
               <div className="top-text">
                  <h2>Are you ready to take the next step toward your future career?</h2>
-                 <Button className="btn mt-4" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation/></Button>
+                 <Button className="btn mt-4" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft:'8px'}}/></Button>
               </div>
            </Grid>
          </Grid>

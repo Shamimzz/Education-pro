@@ -2,11 +2,10 @@
     box-sizing: border-box;
   }
   
-.Tuition-container{
-  background-color: #F6F7FB;
-  height: 100vh;
-}
-
+ .Tuition-container{
+   background-color: #F6F7FB;
+   height: 100vh;
+  }
 
   /* Create three columns of equal width */
   .columns {
@@ -16,40 +15,39 @@
     text-align: start;
   }
   
-.first-col{
+ .first-col{
   background: linear-gradient(45deg, rgb(254, 107, 139) 30%, rgb(255, 142, 83) 90%)!important;
   color: white;
   border-radius: 15px;
-}
-
-/* #ff7b4b; */
-
-/* .second-col{
-  background-color: #ffffff;
-  color: black;
-  border-radius: 15px;
-} */
+ }
 
 
-.align li{
+ ul .align{
   text-align: start;
-  align-items: start;
-  
-  /* justify-self: start; */
-  /* padding: 20px 20px 20px 0px !important; */
-}
+  padding: 0;
+ }
 
-  /* Style the list */
-  .price {
-    /* border: 1px solid #eee; */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+ li .align{
+  text-align: start;
+  padding: 10px;
+ }
+
+ .fess-li{
+  margin-bottom: 15px;
+ }
+
+ .price-header{
+  margin-bottom: 45px;
+ }
+
+ .price {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   }
   
-  /* Add shadows on hover */
   .price:hover {
     /* box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2) */
   }
@@ -61,13 +59,6 @@
     font-size: 25px;
   }
   
-  /* List items */
-  .price li {
-  
-    padding: 20px;
-    text-align: center;
-  }
-
 
   .total-li{
     border-top: 1px solid #eee;
@@ -100,9 +91,10 @@
 
   /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 2000px) {
     .columns {
       width: 33%;
+      padding: 20px;
     }
 
     .second-col,
@@ -115,10 +107,9 @@
 
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 992px) {
     .columns {
       width: 50%;
-
     }
 
    .second-col{

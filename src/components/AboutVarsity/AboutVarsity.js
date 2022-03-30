@@ -29,7 +29,7 @@ const AboutVarsity = () => {
            <div className="university-content pt-5 p-4">
              <h2 className="about-hero-text">About the University! </h2>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo quibusdam veritatis ratione deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta eveniet quis impedit consequatur deserunt quia odit deleniti nostrum non id!</p>
-             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation/></Button>
+             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft: '8px'}}/></Button>
            </div>
         </Grid>
       </Grid>

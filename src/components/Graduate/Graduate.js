@@ -26,12 +26,11 @@ return (
            </div>
         </Grid>
         <Grid item xs={12} md={6} className="left-main p-5">
-          <Button className="btn p-2" style={{backgroundColor:"#FF7B4B"}}>View All Program<FiNavigation/></Button>
+          <Button className="btn p-2" style={{backgroundColor:"#FF7B4B"}}>View All Program<FiNavigation style={{marginLeft: '8px'}}/></Button>
         </Grid>
       </Grid>
      </Box>
     </div>
-      
 
      <GraduateSlider/>
 

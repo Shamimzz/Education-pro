@@ -9,6 +9,14 @@
   position: relative;
 }
 
+.navMenuBorder{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+}
+
+.LogoDiv{
+  border-right: 1px solid rgba(255, 255, 255, 0.404);
+}
+
 .left-main{
   position: relative;
 }
@@ -23,17 +31,38 @@
   align-items: center;
   text-align: start;
   position: absolute;
-  left: 10%;
   top: 50%;
-  left: 50%;
+  left: 43%;
   transform: translate(-50%, -50%);
 }
 
-.right-content{
+#hide{
+  display: none;
+}
 
+
+
+
+@media only screen and (max-width: 2000px){
+  .LogoDiv{
+    width: 8%;
+  }
+  .Logoimg{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 900px){
+
+  .LogoDiv{
+    width: 30%;
+  }
+  .Logoimg{
+    width: 100%;
+  }
+  
+
+
   .hero-text{
     font-size: 55px;
     font-weight: 700;
