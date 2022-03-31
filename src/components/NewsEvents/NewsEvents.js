@@ -8,46 +8,57 @@ import { FiNavigation } from 'react-icons/fi';
 
 const NewsEvents = () => {
     return (
-        <div className="container pt-5 pb-5">
-        <Box sx={{ flexGrow: 1 }} className="pt-3 pb-3">
-         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+    <div className="container pt-5 pb-5">
+
+
+    <div className="row news-header">
+       <div className="left-align">
+         <h2 className="about-hero-text">News And Events</h2>
+       </div>
+       <div className="right-align">
+        <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All<FiNavigation style={{marginLeft: '8px'}}/></Button>
+       </div>
+    </div>
+
+
+        {/* <Box sx={{ flexGrow: 1 }} className="pt-3 pb-3">
+         <Grid container spacing={{ xs: 3, md: 2 }} columns={{ xs: 6, sm: 8, md: 12 }}>
            <Grid item xs={6} md={12} className="d-flex justify-content-between">
              <h2 className="about-hero-text">News And Events</h2>
              <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All<FiNavigation style={{marginLeft: '8px'}}/></Button>
            </Grid>
           </Grid>
-         </Box>
-
+        </Box> */}
 
 
     <Box sx={{ width: '100%' }}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} md={6} sm={6}>
          
-    <div>
-      <CardActionArea>
-        <CardMedia
-          className="img-card"
-          component="img"
-          height="280"
-          image="https://www.mecca.com.au/on/demandware.static/-/Sites-MeccaAU-Library/default/dwbbf08bd9/images/careers/graduates/graduates-header-2020@1x.jpg"
+     <div>
+       <CardActionArea>
+         <CardMedia
+           className="img-card"
+           component="img"
+           height="280"
+           image="https://www.mecca.com.au/on/demandware.static/-/Sites-MeccaAU-Library/default/dwbbf08bd9/images/careers/graduates/graduates-header-2020@1x.jpg"
           alt="green iguana"
-        />
-        <CardContent className="cardContent">
-          <Typography gutterBottom variant="h5" component="div">
-            Life is a distace learning student.
-          </Typography>
-          <span className="text-muted">December 20, 2020</span>
-          <Typography className="mt-3" variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ab.
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </div>
+         />
+         <CardContent className="cardContent">
+           <Typography gutterBottom variant="h5" component="div">
+             Life is a distace learning student.
+           </Typography>
+           <span className="text-muted">December 20, 2020</span>
+           <Typography className="mt-3" variant="body2" color="text.secondary">
+             Lizards are a widespread group of squamate reptiles, with over 6,000
+             species, ranging across all continents except Antarctica Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ab.
+           </Typography>
+         </CardContent>
+       </CardActionArea>
+     </div>
 
-        </Grid>
-        <Grid item xs={12} md={6}  sm={6}>
+      </Grid>
+        <Grid item xs={12} md={6} sm={6}>
            <div className="left-img-content">
              <div className="wraper-box">
                <div className="img-box">

@@ -1,12 +1,9 @@
-
 .cardContent{
     text-align: start;
 }
-
 .css-46bh2p-MuiCardContent-root {
     padding: 16px 16px 16px 0px !important;
 }
-
 .left-img-content{
     background: #F6F7FB;
     border-radius: 15px;
@@ -14,45 +11,51 @@
 .wraper-box{
     display: flex;
     padding: 7px;
-    /* margin: 10px; */
 }
-
 .img-box{
   width: 30%;
   padding: 5px;
 }
-
 .content-box{
     text-align: start;
     padding: 0px 12px 12px 12px;
 }
-
 .image{
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
 .img-box img{
     border-radius: 10px;
 }
-
 .img-card{
     border-radius: 15px;
     margin-top: 10px;
 }
 
 
-@media only screen and (max-width: 1500px){
+.news-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-align{
+  width: 70%;
+  text-align: start;
+}
+.right-align{
+  width: 30%;
+  text-align: end;
+}
+
+
+@media only screen and (max-width: 2000px){
 	.left-img-content{
         margin-bottom: 15px;
     }  
-
     .wraper-box{
         margin: 10px;
     }
-    
-
     .image{
         width: 100%;
         height: auto;
@@ -66,7 +69,6 @@
         padding: 7px;
     }
 }
-
 
 @media only screen and (max-width: 992px){
     .left-img-content{
@@ -82,7 +84,6 @@
     .wraper-box{
         display: grid;
     }
-
     .image{
         width: 100%;
         height: auto;
@@ -105,12 +106,10 @@
     .content-box p{
         font-size: 12px;
     }
-    
 }
 
 
 @media only screen and (max-width: 576px){
-	
     .image{
         width: 100%;
         height: auto;
