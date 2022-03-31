@@ -1,20 +1,15 @@
 import React from 'react';
 import './AboutVarsity.css';
-
 import { FiNavigation } from 'react-icons/fi';
 import { GiEarthAmerica } from 'react-icons/gi';
 import { GiMissilePod } from 'react-icons/gi';
 import { BsCompass } from 'react-icons/bs';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-
 import { Button } from 'react-bootstrap';
 import { Grid } from '@mui/material';
 import Box from '@mui/material/Box';
 
-
-
 const AboutVarsity = () => {
-
    return (
    <div className="container pt-5 pb-5">
 

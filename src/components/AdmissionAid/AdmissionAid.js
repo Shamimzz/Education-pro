@@ -4,7 +4,6 @@ import { Button } from 'react-bootstrap';
 import { FiNavigation } from 'react-icons/fi';
 import './AdmissionAid.css';
 
-
 const AdmissionAid = () => {
     return (
       <div className="container pt-5 pb-5">
@@ -25,7 +24,6 @@ const AdmissionAid = () => {
            </Grid>
         </Box>
      </div>
-  
     );
 };
 

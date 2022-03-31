@@ -6,13 +6,12 @@ import { FaSuperpowers } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 import { Grid } from '@mui/material';
 import Box from '@mui/material/Box';
-import { Button, Col, Row } from 'react-bootstrap';
-
+import { Button } from 'react-bootstrap';
 
 const HowToApply = () => {
     return (
     <div className="container pt-5 pb-5">
-      
+
     <div className="row news-header">
        <div className="left-align">
          <h2 className="about-hero-text">How To Apply</h2>
@@ -22,22 +21,7 @@ const HowToApply = () => {
        </div>
     </div>
 
-    {/* <div className="row">
-      <Box sx={{ flexGrow: 1 }} className="pt-3 pb-3">
-       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-         <Grid item xs={12} md={6}>
-          <div className="Graduate-content p-4">
-            <h2 className="about-hero-text">How To Apply</h2>
-          </div>
-         </Grid>
-         <Grid item xs={12} md={6} className=" p-5">
-           <Button className="btn p-2" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft: '8px'}}/></Button>
-         </Grid>
-       </Grid>
-      </Box>
-     </div> */}
-
-      <Box sx={{ flexGrow: 1 }} className="">
+    <Box sx={{ flexGrow: 1 }} className="">
        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 3, sm: 6, md: 12 }}>
         <Grid item xs={6} md={4}>
          <div className="about-box"> 

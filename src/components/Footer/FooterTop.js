@@ -7,17 +7,14 @@ import { FiNavigation } from 'react-icons/fi';
 const FooterTop = () => {
     return (
         <div className="container pt-5 pb-5 ">
-
-         <Grid container spacing={1} columns={12}>
-           <Grid item xs={12}>
-              <div className="top-text">
-                 <h2>Are you ready to take the next step toward your future career?</h2>
-                 <Button className="btn mt-4" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft:'8px'}}/></Button>
-              </div>
-           </Grid>
-         </Grid>
-
-
+        <Grid container spacing={1} columns={12}>
+          <Grid item xs={12}>
+            <div className="top-text">
+              <h2>Are you ready to take the next step toward your future career?</h2>
+              <Button className="btn mt-4" style={{backgroundColor:"#FF7B4B"}}>University Overview<FiNavigation style={{marginLeft:'8px'}}/></Button>
+            </div>
+          </Grid>
+        </Grid>
 
         <Grid className="mt-5 row">
           <Grid className="col-md-3 col-sm-6">
@@ -62,23 +59,17 @@ const FooterTop = () => {
             </div>
           </Grid>
         </Grid>
-
         <hr />
-
-          
         <div className="footer-down d-flex justify-content-between wrapper row">
-          <ul className="d-flex justify-content-around col-sm-6">
+          <ul className="d-flex justify-content-around col-sm-6 col-md-6">
               <a href="#" className="p-2">Cookies</a>
               <a href="#" className="p-2">Treams & Conditions</a>
               <a href="#" className="p-2">Privacy Policy</a>
           </ul>   
-          <ul className="mt-2 col-sm-6">
+          <ul className="mt-2 col-sm-6 col-md-6">
               <a href="#" className="p-2">Copyright @2022 It Company</a>
           </ul>        
         </div>
-
-
-
 
         </div>
     );

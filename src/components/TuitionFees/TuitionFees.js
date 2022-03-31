@@ -5,10 +5,8 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 const TuitionFees = () => {
     return (
     <div className="Tuition-container">
-
      <div className="container mt-4 pt-5 pb-5">
             <h2 className="m-auto mb-5 tuition-header">Tuition & Fees</h2>
-
          <div className="columns">
           <div className="first-col p-5">
           <div className="price-header mb-5">
@@ -46,7 +44,6 @@ const TuitionFees = () => {
             </ul>
           </div>
         </div>
-
 
         <div className="columns">  
           <div className="third-col p-4">

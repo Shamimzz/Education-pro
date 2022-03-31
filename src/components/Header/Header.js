@@ -16,7 +16,6 @@ const Header = () => {
     }
   }
 
-
     return (
     <div className="bg">
      <div className="container navMenuBorder">
@@ -39,7 +38,6 @@ const Header = () => {
           >
            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-           {/* <NavDropdown.Divider /> */}
            <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
         </NavDropdown>
 
@@ -50,7 +48,6 @@ const Header = () => {
           >
            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-           {/* <NavDropdown.Divider /> */}
            <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
         </NavDropdown>
 
@@ -61,7 +58,6 @@ const Header = () => {
            >
            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-           {/* <NavDropdown.Divider /> */}
            <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
         </NavDropdown>
 
@@ -72,7 +68,6 @@ const Header = () => {
            >
            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
            <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-           {/* <NavDropdown.Divider /> */}
            <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
         </NavDropdown>
 
@@ -93,7 +88,6 @@ const Header = () => {
    </Navbar>
   </div> 
 
-
    <Box sx={{ flexGrow: 1 }} className="pt-5">
       <Grid container spacing={2} columns={12}>
         <Grid item xs={12} md={6} className="left-main">
@@ -110,8 +104,6 @@ const Header = () => {
         </Grid>
       </Grid>
    </Box>
-
-
 
     </div>
     );

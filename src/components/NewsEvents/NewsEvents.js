@@ -1,15 +1,13 @@
-import { Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import './NewsEvents.css';
 
 import { FiNavigation } from 'react-icons/fi';
-
 const NewsEvents = () => {
     return (
     <div className="container pt-5 pb-5">
-
 
     <div className="row news-header">
        <div className="left-align">
@@ -20,21 +18,9 @@ const NewsEvents = () => {
        </div>
     </div>
 
-
-        {/* <Box sx={{ flexGrow: 1 }} className="pt-3 pb-3">
-         <Grid container spacing={{ xs: 3, md: 2 }} columns={{ xs: 6, sm: 8, md: 12 }}>
-           <Grid item xs={6} md={12} className="d-flex justify-content-between">
-             <h2 className="about-hero-text">News And Events</h2>
-             <Button className="btn" style={{backgroundColor:"#FF7B4B"}}>View All<FiNavigation style={{marginLeft: '8px'}}/></Button>
-           </Grid>
-          </Grid>
-        </Box> */}
-
-
     <Box sx={{ width: '100%' }}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} md={6} sm={6}>
-         
      <div>
        <CardActionArea>
          <CardMedia
@@ -95,11 +81,6 @@ const NewsEvents = () => {
         </Grid>
       </Grid>
     </Box>
-
-
-
-
-
 
         </div>
     );
