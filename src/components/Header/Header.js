@@ -2,6 +2,9 @@ import React from 'react';
 import './Header.css';
 import { BsSearch } from 'react-icons/bs';
 import { FiNavigation } from 'react-icons/fi';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import { AiOutlineArrowDown } from 'react-icons/ai';
 import { Container, Form, Nav, Navbar, Button, NavDropdown } from 'react-bootstrap';
 import { Grid, TextField } from '@mui/material';
 import Box from '@mui/material/Box';
@@ -95,6 +98,14 @@ const Header = () => {
              <h2 className="hero-text">Start Your carer & push your passion!</h2>
              <p className="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto alias molestias, id similique nihil eaque explicabo quibusdam veritatis ratione deleniti.</p>
              <Button className="btn mt-4" style={{backgroundColor: "#FF7B4B"}}>View Our Program <FiNavigation style={{marginLeft: '5px' }}/> </Button>
+          {
+           /* <div className="arrow-section">
+             <span><AiOutlineArrowLeft/></span>
+             <span><AiOutlineArrowRight/></span>
+             <span><AiOutlineArrowDown/></span>
+           </div>
+           */
+          }
            </div>
         </Grid>
         <Grid item xs={12} md={6}>
